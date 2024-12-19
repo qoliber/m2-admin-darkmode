@@ -1,45 +1,28 @@
 {
-  "name": "enanobots/m2-admin-darkmode",
-  "type": "magento2-theme",
-  "license": "OSL-3.0",
+  "name": "qoliber/m2-admin-darkmode",
+  "version": "2.0.0",
+  "source": {
+    "type": "git",
+    "url": "git@github.com:qoliber/m2-admin-darkmode.git",
+    "reference": "master"
+  },
   "authors": [
     {
-      "name": "Sebastian Strojwas",
-      "email": "sebastian@qsolutionsstudio.com"
-    },
-    {
-      "name": "Przemysław Jankowski",
-      "email": "przemek@qsolutionsstudio.com"
-    },
-    {
-      "name": "Jakub Winkler",
-      "email": "jwinkler@qsolutionsstudio.com"
+      "name": "qoliber",
+      "email": "info@qoliber.com"
     }
-  ],
-  "description": "Magento 2 Admin Dark Theme",
-  "homepage": "https://github.com/enanobots/m2-admin-darkmode",
-  "keywords": [
-    "magento",
-    "magento2",
-    "admin theme",
-    "dark mode",
-    "backend"
   ],
   "require": {
     "magento/framework": ">=102.0.0",
-    "magento/module-backend": ">=101.0.0"
+    "qoliber/core": "*"
   },
+  "license": "MIT",
   "autoload": {
     "files": [
-      "src/module-nanobots-core/registration.php",
-      "src/module-nanobots-darkmode/registration.php",
-      "src/theme-adminhtml-darkmode/registration.php"
+      "registration.php"
     ],
     "psr-4": {
-      "Nanobots\\Core\\": "src/module-nanobots-core-core",
-      "Nanobots\\DarkMode\\": "src/module-nanobots-darkmode"
+      "Qoliber\\DarkMode\\": ""
     }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }

@@ -1,17 +1,8 @@
  ![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.png?v=103)
 
 ### Magento 2 - Dark Mode for Admin Panel
-This is a continuation of this project: https://github.com/magespices/mage2dark
 
-### Demo:
-https://darkmode.nanobots.info
-
-Access:
-```
-    url : https://darkmode.nanobots.info/admin
-    user: nanobot
-    pass: DARKmode321
-```
+This is a continuation of this project: ![magespices/mage2dark](https://github.com/magespices/mage2dark)
 
 Login screen\
 [![59xP19.md.png](https://iili.io/59xP19.md.png)](https://freeimage.host/i/59xP19)
@@ -22,13 +13,14 @@ Dashboard\
 Settings\
 [![59xmXV.md.png](https://iili.io/59xmXV.md.png)](https://freeimage.host/i/59xmXV)
 
-## Installation: 
+## Installation
 
 ```  
- composer require nanobots/m2-admin-darkmode
+ composer require qoliber/m2-admin-darkmode
 ``` 
 
 and run:
+
 ```
     php bin/magento setup:upgrade 
 ```
@@ -40,11 +32,12 @@ Dark mode is enabled by default but you can change your settings and set automat
 This feature was provided by https://github.com/rav-redchamps, thanks for that!\
 https://github.com/magespices/mage2dark/pull/2
 
-**Tested on only**: 
+**Tested on only** 
+
 - Magento 2.3.x Open Source
 - Magento 2.4.x Open Source
 
-### Developed by:
+### Developed by
+
 [@MagentoNinja](https://twitter.com/MagentoNinja)
-[@eNanobots](https://twitter.com/eNanobots)
-[@Qsolutions Studio](https://twitter.com/QsolutionsStdio)
+[@qoliber](https://twitter.com/qoliber)

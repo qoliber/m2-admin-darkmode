@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Created by Q-Solutions Studio
+* Qoliber
+*
+* @package  Qoliber_DarkMode
+* @author   Jakub Winkler <jwinkler@qoliber.com> @MagentoNinja
+* @author	Przemysław Jankowski <pjankowski@qoliber.com>
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <darkmode>
+            <settings>
+                <theme_selection>dark</theme_selection>
+                <light_theme_time_from>420</light_theme_time_from>
+                <light_theme_time_to>1140</light_theme_time_to>
+            </settings>
+        </darkmode>
+    </default>
+</config>
